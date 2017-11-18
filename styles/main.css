@@ -279,7 +279,7 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
-  .label {
+  .label, .Ballotin .BoxTagsList li a {
     border: 1px solid #000;
   }
   .table, .Tutorials .MainContent table {
@@ -1385,7 +1385,7 @@ body {
   font-size: 16px;
   line-height: 1.42857;
   color: #545452;
-  background-color: #F8F5F0;
+  background-color: #FFF;
 }
 
 input,
@@ -1433,7 +1433,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #F8F5F0;
+  background-color: #FFF;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1998,32 +1998,14 @@ pre code {
   clear: both;
 }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .Tutorials .MainContent > .container-fluid > .row > h1,
-.Tutorials .MainContent > .container-fluid > .row > h2,
-.Tutorials .MainContent > .container-fluid > .row > h3,
-.Tutorials .MainContent > .container-fluid > .row > h4,
-.Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-.Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-.Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .Tutorials .MainContent > .container-fluid > .row > h1,
-.Tutorials .MainContent > .container-fluid > .row > h2,
-.Tutorials .MainContent > .container-fluid > .row > h3,
-.Tutorials .MainContent > .container-fluid > .row > h4,
-.Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-.Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-.Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1, .col-sm-12, .col-md-12, .Tutorials .MainContent pre, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .Tutorials .MainContent table, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .Tutorials .MainContent table, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .Tutorials .MainContent > .container-fluid > .row > h1,
-.Tutorials .MainContent > .container-fluid > .row > h2,
-.Tutorials .MainContent > .container-fluid > .row > h3,
-.Tutorials .MainContent > .container-fluid > .row > h4,
-.Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-.Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-.Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1 {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .Tutorials .MainContent table {
   float: left;
 }
 
@@ -2071,13 +2053,7 @@ pre code {
   width: 91.66667%;
 }
 
-.col-xs-12, .Tutorials .MainContent > .container-fluid > .row > h1,
-.Tutorials .MainContent > .container-fluid > .row > h2,
-.Tutorials .MainContent > .container-fluid > .row > h3,
-.Tutorials .MainContent > .container-fluid > .row > h4,
-.Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-.Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-.Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1 {
+.col-xs-12, .Tutorials .MainContent table {
   width: 100%;
 }
 
@@ -2397,13 +2373,7 @@ pre code {
 }
 
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .Tutorials .MainContent > .container-fluid > .row > h1,
-  .Tutorials .MainContent > .container-fluid > .row > h2,
-  .Tutorials .MainContent > .container-fluid > .row > h3,
-  .Tutorials .MainContent > .container-fluid > .row > h4,
-  .Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-  .Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-  .Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .Tutorials .MainContent pre {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .Tutorials .MainContent table, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
   .col-md-1 {
@@ -2421,13 +2391,7 @@ pre code {
   .col-md-5 {
     width: 41.66667%;
   }
-  .col-md-6, .Tutorials .MainContent > .container-fluid > .row > h1,
-  .Tutorials .MainContent > .container-fluid > .row > h2,
-  .Tutorials .MainContent > .container-fluid > .row > h3,
-  .Tutorials .MainContent > .container-fluid > .row > h4,
-  .Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-  .Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-  .Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1 {
+  .col-md-6, .Tutorials .MainContent table {
     width: 50%;
   }
   .col-md-7 {
@@ -2445,7 +2409,7 @@ pre code {
   .col-md-11 {
     width: 91.66667%;
   }
-  .col-md-12, .Tutorials .MainContent pre {
+  .col-md-12 {
     width: 100%;
   }
   .col-md-pull-0 {
@@ -2463,13 +2427,7 @@ pre code {
   .col-md-pull-4 {
     right: 33.33333%;
   }
-  .col-md-pull-5, .Tutorials .MainContent > .container-fluid > .row > h1,
-  .Tutorials .MainContent > .container-fluid > .row > h2,
-  .Tutorials .MainContent > .container-fluid > .row > h3,
-  .Tutorials .MainContent > .container-fluid > .row > h4,
-  .Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-  .Tutorials .MainContent ol, .Tutorials .MainContent ul li pre code,
-  .Tutorials .MainContent ol li pre code, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1 {
+  .col-md-pull-5, .Tutorials .MainContent table {
     right: 41.66667%;
   }
   .col-md-pull-6 {
@@ -2547,16 +2505,10 @@ pre code {
   .col-md-offset-4 {
     margin-left: 33.33333%;
   }
-  .col-md-offset-5, .Tutorials .MainContent ul li pre code,
-  .Tutorials .MainContent ol li pre code {
+  .col-md-offset-5 {
     margin-left: 41.66667%;
   }
-  .col-md-offset-6, .Tutorials .MainContent > .container-fluid > .row > h1,
-  .Tutorials .MainContent > .container-fluid > .row > h2,
-  .Tutorials .MainContent > .container-fluid > .row > h3,
-  .Tutorials .MainContent > .container-fluid > .row > h4,
-  .Tutorials .MainContent > .container-fluid > .row > p, .Tutorials .MainContent table, .Tutorials .MainContent ul,
-  .Tutorials .MainContent ol, .Tutorials .MainContent hr, .Tutorials .MainContent pre code, .Tutorials .TutorialIndex h1 {
+  .col-md-offset-6, .Tutorials .MainContent table {
     margin-left: 50%;
   }
   .col-md-offset-7 {
@@ -2788,7 +2740,7 @@ th {
 }
 
 .table .table, .Tutorials .MainContent table .table, .table .Tutorials .MainContent table, .Tutorials .MainContent .table table, .Tutorials .MainContent table table {
-  background-color: #F8F5F0;
+  background-color: #FFF;
 }
 
 .table-condensed > thead > tr > th,
@@ -4727,7 +4679,7 @@ tbody.collapse.in {
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #F8F5F0;
+  background-color: #FFF;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4810,7 +4762,7 @@ tbody.collapse.in {
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
   .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #F8F5F0;
+    border-bottom-color: #FFF;
   }
 }
 
@@ -5607,7 +5559,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   cursor: not-allowed;
 }
 
-.label {
+.label, .Ballotin .BoxTagsList li a {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -5620,26 +5572,26 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-radius: .25em;
 }
 
-.label:empty {
+.label:empty, .Ballotin .BoxTagsList li a:empty {
   display: none;
 }
 
-.btn .label {
+.btn .label, .btn .Ballotin .BoxTagsList li a, .Ballotin .BoxTagsList li .btn a {
   position: relative;
   top: -1px;
 }
 
-a.label:hover, a.label:focus {
+a.label:hover, .Ballotin .BoxTagsList li a:hover, a.label:focus, .Ballotin .BoxTagsList li a:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 
-.label-default {
+.label-default, .Ballotin .BoxTagsList li a {
   background-color: #777777;
 }
 
-.label-default[href]:hover, .label-default[href]:focus {
+.label-default[href]:hover, .Ballotin .BoxTagsList li a[href]:hover, .label-default[href]:focus, .Ballotin .BoxTagsList li a[href]:focus {
   background-color: #5e5e5e;
 }
 
@@ -5792,7 +5744,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.42857;
-  background-color: #F8F5F0;
+  background-color: #FFF;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -7873,7 +7825,7 @@ button.close {
   margin: 1rem 1rem !important;
 }
 
-.m-t-1, .Tutorials .MainContent hr, .Tutorials .MainContent pre {
+.m-t-1 {
   margin-top: 1rem !important;
 }
 
@@ -7903,7 +7855,7 @@ button.close {
   margin: 1.5rem 1.5rem !important;
 }
 
-.m-t-2 {
+.m-t-2, .LandingPage header .InstallInstruction {
   margin-top: 1.5rem !important;
 }
 
@@ -7911,7 +7863,7 @@ button.close {
   margin-right: 1.5rem !important;
 }
 
-.m-b-2, .LandingPage .Features .FeatureCard h6, .LandingPage .Features .FeatureCard .FeatureBody > p {
+.m-b-2, .LandingPage .Features .FeatureCard h6, .LandingPage .Features .FeatureCard .FeatureBody > p, .Ballotin .BallotinSingleContainer .WithDash, .Ballotin .FeatureCard h6, .Ballotin .FeatureCard .FeatureBody > p, .Ballotin .BoxReadme h1, .Ballotin .BoxReadme h2, .Ballotin .BoxReadme h3, .Ballotin .BoxReadme h4, .Ballotin .BoxReadme h5, .Ballotin .BoxReadme h6 {
   margin-bottom: 1.5rem !important;
 }
 
@@ -7933,7 +7885,7 @@ button.close {
   margin: 3rem 3rem !important;
 }
 
-.m-t-3, .LandingPage header .InstallInstruction, .Tutorials .MainContent h1, .Tutorials .MainContent img {
+.m-t-3, .Tutorials .MainContent img, .Ballotin .BoxReadme h1, .Ballotin .BoxReadme h2, .Ballotin .BoxReadme h3, .Ballotin .BoxReadme h4, .Ballotin .BoxReadme h5, .Ballotin .BoxReadme h6 {
   margin-top: 3rem !important;
 }
 
@@ -7941,7 +7893,7 @@ button.close {
   margin-right: 3rem !important;
 }
 
-.m-b-3, .LandingPage .Features .FeatureList li, .Tutorials .MainContent h1, .Tutorials .MainContent hr, .Tutorials .MainContent pre {
+.m-b-3, .LandingPage .Features .FeatureList li {
   margin-bottom: 3rem !important;
 }
 
@@ -7963,7 +7915,7 @@ button.close {
   margin: 4rem 4rem !important;
 }
 
-.m-t-4 {
+.m-t-4, .Ballotin .CommunityBoxes .row-boxes {
   margin-top: 4rem !important;
 }
 
@@ -7971,7 +7923,7 @@ button.close {
   margin-right: 4rem !important;
 }
 
-.m-b-4, .LandingPage .Tutorials li a, .LandingPage .Blog li a, .Tutorials .TutorialIndex li a {
+.m-b-4, .LandingPage .Tutorials li a, .LandingPage .Blog li:not(:last-child) a, .Tutorials .TutorialIndex li:not(:last-child) a {
   margin-bottom: 4rem !important;
 }
 
@@ -8054,7 +8006,7 @@ button.close {
   padding: 1.5rem 1.5rem !important;
 }
 
-.p-t-2, .LandingPage .Features .FeatureCard footer img {
+.p-t-2, .LandingPage .Features .FeatureCard footer img, .Ballotin .FeatureCard footer img {
   padding-top: 1.5rem !important;
 }
 
@@ -8062,7 +8014,7 @@ button.close {
   padding-right: 1.5rem !important;
 }
 
-.p-b-2, .BetaSignup h2, .LandingPage .Features .FeatureCard footer p {
+.p-b-2, .BetaSignup h2, .LandingPage .Features .FeatureCard footer p, .Ballotin .FeatureCard footer p {
   padding-bottom: 1.5rem !important;
 }
 
@@ -8084,7 +8036,7 @@ button.close {
   padding: 3rem 3rem !important;
 }
 
-.p-t-3, .Tutorials .MainContent pre {
+.p-t-3 {
   padding-top: 3rem !important;
 }
 
@@ -8092,7 +8044,7 @@ button.close {
   padding-right: 3rem !important;
 }
 
-.p-b-3, .Tutorials .MainContent pre {
+.p-b-3 {
   padding-bottom: 3rem !important;
 }
 
@@ -8317,6 +8269,168 @@ code {
   word-wrap: break-word;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+.container-narrow {
+  max-width: 600px;
+}
+
+.Footer .copyright {
+  line-height: 40px;
+}
+
+.Footer .copyright svg {
+  height: 40px;
+  width: auto;
+  float: left;
+  margin-right: 5px;
+}
+
+.nav a {
+  text-transform: uppercase;
+}
+
+.navbar {
+  height: 100px;
+  padding: 0 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.navbar.navbar-default {
+  background: #fff;
+}
+
+.navbar .navbar-collapse {
+  background: transparent;
+  max-height: none;
+  border: none;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 100px;
+  height: 100px;
+  padding-top: 0;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand svg {
+  height: auto;
+  width: 70px;
+  float: left;
+  margin-top: 12px;
+}
+
+.navbar-toggle {
+  position: relative;
+  height: 32px;
+  width: 42px;
+  margin-top: 34px;
+  margin-right: 30px;
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    height: 60px;
+  }
+  .navbar .navbar-collapse {
+    display: block;
+    position: fixed;
+    top: 59px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background: #F5F5F5;
+    border-bottom: 1px solid #e7e7e7;
+    transition: all .25s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .navbar .navbar-collapse.in {
+    opacity: 1;
+    visibility: visible;
+    z-index: 300;
+  }
+  .navbar .navbar-nav {
+    margin: 1.2em 0;
+  }
+  .navbar .navbar-nav li {
+    margin-bottom: 0;
+  }
+  .navbar-nav li:not(:last-child) {
+    margin-bottom: 1.2em;
+  }
+  .navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+  }
+  .navbar-brand {
+    height: 60px;
+  }
+  .navbar-brand svg {
+    width: auto;
+    height: 32px;
+    margin-top: 14px;
+  }
+  .navbar-toggle {
+    margin-top: 15px;
+    margin-right: 0;
+  }
+}
+
+.navbar-toggle .icon-bar {
+  position: absolute;
+  height: 3px;
+  width: 22px;
+  transition: all .25s ease-in-out;
+}
+
+.icon-bar:nth-of-type(2) {
+  top: 7px;
+  left: 10px;
+}
+
+.icon-bar:nth-of-type(3) {
+  top: 10px;
+  left: 10px;
+}
+
+.icon-bar:nth-of-type(4) {
+  bottom: 8px;
+  left: 10px;
+}
+
+.navbar-toggle.close:hover {
+  opacity: 1;
+}
+
+.navbar-toggle.close .icon-bar:nth-of-type(2) {
+  top: calc(50% - 2px);
+  left: 11px;
+  transform: rotate(45deg);
+}
+
+.navbar-toggle.close .icon-bar:nth-of-type(3) {
+  opacity: 0;
+}
+
+.navbar-toggle.close .icon-bar:nth-of-type(4) {
+  bottom: calc(50% - 1px);
+  transform: rotate(-45deg);
+}
+
 .btn-primary,
 .btn-secondary {
   border: none;
@@ -8450,17 +8564,13 @@ code {
   overflow: hidden;
   background-color: #F7F7F7;
   padding-bottom: 6rem;
-}
-
-.Footer .Logo {
-  width: 100px;
-  height: 100px;
+  border-top: 1px solid #e7e7e7;
+  color: #545452;
 }
 
 .Footer ul,
 .Footer ol {
   font-family: "Open Sans", "Verdana", Times, serif;
-  line-height: 1.5rem;
   margin-left: 0;
   padding-left: 0;
 }
@@ -8468,14 +8578,26 @@ code {
 .Footer ul li,
 .Footer ol li {
   margin-bottom: 1.2em;
+  line-height: 1.5rem;
 }
 
 .Footer ul {
   text-transform: uppercase;
 }
 
-.Footer h5 {
-  margin-top: 0;
+@media screen and (max-width: 991px) {
+  .Footer ul {
+    margin-top: 20px;
+  }
+}
+
+.Footer h1, .Footer h2, .Footer h3, .Footer h4, .Footer h5, .Footer h6 {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+.Footer .Logo {
+  width: 100px;
+  height: auto;
 }
 
 .Footer .BetaSignup {
@@ -8485,17 +8607,79 @@ code {
   padding: 0 !important;
 }
 
-.Footer .BetaSignup .FormWrapper {
-  margin: 0;
-}
-
 .Footer .BetaSignup:before {
   display: none;
 }
 
-.Footer .container > svg {
+.Footer .BetaSignup h5 {
+  margin: 0 0 11px 0;
+  color: #545452;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.Footer .BetaSignup input[type="submit"] {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  font-weight: 500;
+}
+
+.Footer .BetaSignup label {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+  font-weight: 700;
+}
+
+.Footer .BetaSignup .FormWrapper {
+  margin: 0;
+}
+
+.Footer .copyright {
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+  .Footer .copyright {
+    margin: 0 0 20px 0;
+  }
+}
+
+.Footer .container {
+  position: relative;
+}
+
+.Footer .container .footer-wordmark {
+  width: calc(100% - 30px);
   position: absolute;
-  bottom: -115px;
+  bottom: -211px;
+  left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .Footer .container .footer-wordmark {
+    bottom: -183px;
+  }
+}
+
+.LandingPage .navbar {
+  background: transparent;
+  border-color: transparent;
+  transition: all .25s ease-in-out;
+}
+
+.LandingPage .navbar.scroll, .LandingPage .navbar.nav-shown {
+  background: #fff;
+  border-color: #e7e7e7;
+}
+
+.LandingPage .navbar.scroll .navbar-brand, .LandingPage .navbar.nav-shown .navbar-brand {
+  opacity: 1;
+}
+
+.LandingPage p, .LandingPage li {
+  line-height: 1.75rem;
+}
+
+.LandingPage p.hint, .LandingPage li.hint {
+  font-size: .9em;
 }
 
 .LandingPage ul,
@@ -8512,6 +8696,7 @@ code {
 }
 
 .LandingPage header {
+  height: 80vh;
   background: url("../images/header_bg.jpg") no-repeat;
   background-size: cover;
 }
@@ -8521,8 +8706,24 @@ code {
   letter-spacing: 2px;
 }
 
+.LandingPage header p {
+  line-height: 1.5rem;
+}
+
 .LandingPage header div > iframe:first-of-type {
   margin-right: 1em;
+}
+
+.LandingPage header div > a > img {
+  margin-top: -10px;
+  margin-left: 1em;
+}
+
+.LandingPage header .container {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .LandingPage header .github-button {
@@ -8533,16 +8734,12 @@ code {
   width: 200px;
 }
 
-.LandingPage header div > a > img {
-  margin-top: -10px;
-  margin-left: 1em;
-}
-
 .LandingPage header .InstallInstruction {
   text-align: center;
 }
 
 .LandingPage header .InstallInstruction .Box {
+  margin: 0 auto;
   background-color: #5E464D;
   border-radius: 2px;
 }
@@ -8550,6 +8747,21 @@ code {
 .LandingPage header .InstallInstruction .Box code {
   background: transparent;
   color: white;
+}
+
+@media screen and (max-width: 767px), screen and (max-height: 739px) {
+  .LandingPage header {
+    min-height: auto;
+    height: auto;
+    padding: 83px 0 30px 0;
+  }
+  .LandingPage header .container {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 30px auto;
+  }
 }
 
 .LandingPage .Features {
@@ -8660,20 +8872,27 @@ code {
 .LandingPage .Tutorials li a {
   display: block;
   background-color: #94D6E2;
+  color: #545452;
+  border-bottom: none;
   text-transform: uppercase;
   transition: all .3s;
 }
 
 .LandingPage .Tutorials li a h2 {
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
   letter-spacing: 1px;
   text-shadow: none;
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 .LandingPage .Tutorials li a div {
   margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+.LandingPage .Tutorials li a h2 {
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  transition: all .3s;
 }
 
 .LandingPage .Tutorials li a:hover {
@@ -8711,28 +8930,33 @@ code {
 
 .LandingPage .Blog li a {
   display: block;
-  background-color: #FFF;
+  background-color: #fff;
+  color: #545452;
+  border-bottom: solid 2px #3FE0C5;
   text-transform: uppercase;
   transition: all .3s;
-  border-bottom: solid 1px #3FE0C5;
-  /*border-left: solid 1px $body-primary-color;*/
 }
 
 .LandingPage .Blog li a h2 {
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
   letter-spacing: 1px;
   text-shadow: none;
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 .LandingPage .Blog li a div {
   margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+.LandingPage .Blog li a h2 {
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  transition: all .3s;
 }
 
 .LandingPage .Blog li a:hover {
-  color: white;
   background-color: #3FE0C5;
+  color: white;
   text-decoration: none;
   transform: scale(1.02);
 }
@@ -8747,6 +8971,10 @@ code {
 
 .LandingPage .Contributing ol {
   margin-left: 1rem;
+}
+
+.LandingPage .Contributing .col-github-logo svg {
+  max-width: 300px;
 }
 
 .LandingPage .NotableUsers li {
@@ -8779,8 +9007,8 @@ code {
 .LandingPage .BuiltWith .Left img {
   border: 4px solid white;
   border-radius: 50%;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 @media (max-width: 590px) {
@@ -8793,82 +9021,56 @@ code {
   background-color: #fff;
 }
 
-.LandingPage .Footer {
-  position: relative;
-  overflow: hidden;
-  background-color: #F7F7F7;
-  padding-bottom: 6rem;
-}
-
-.LandingPage .Footer .Logo {
-  width: 100px;
-  height: 100px;
-}
-
-.LandingPage .Footer ul {
-  text-transform: uppercase;
-}
-
-.LandingPage .Footer h5 {
-  margin-top: 0;
-}
-
-.LandingPage .Footer .BetaSignup {
-  background: transparent;
-  border: 0;
-  margin: 0;
-  padding: 0 !important;
-}
-
-.LandingPage .Footer .BetaSignup .FormWrapper {
-  margin: 0;
-}
-
-.LandingPage .Footer .BetaSignup:before {
-  display: none;
-}
-
-.LandingPage .Footer .container > svg {
-  position: absolute;
-  bottom: -115px;
-}
-
 .Tutorials {
-  background: white;
+  /*
+   * Single Tutorial
+   */
+  /*&:not(.TutorialIndexContainer) {
+    .MainContent {
+      > .container-fluid > .row > h1,
+      > .container-fluid > .row > h2,
+      > .container-fluid > .row > h3,
+      > .container-fluid > .row > h4,
+      > .container-fluid > .row > ul,
+      > .container-fluid > .row > ol,
+      > .container-fluid > .row > hr,
+      > .container-fluid > .row > pre code,
+      > .container-fluid > .row > p {
+        @extend .container;
+        max-width: 600px;
+      }
+
+      > .container-fluid > .row > ul,
+      > .container-fluid > .row > ol {
+        padding-left: 35px;
+      }
+
+      > .container-fluid > .row > hr {
+        max-width: 540px;
+      }
+    }
+  }*/
+}
+
+.Tutorials.TutorialIndexContainer {
+  background: #F8F5F0;
+}
+
+.Tutorials.TutorialIndexContainer .MainContent ol {
+  padding-left: 0;
 }
 
 .Tutorials .nav a {
   text-transform: uppercase;
 }
 
-.Tutorials .navbar {
-  min-height: 100px;
-}
-
-.Tutorials .navbar-toggle {
-  margin-top: 30px;
-  margin-right: 30px;
-}
-
-.Tutorials .navbar-brand {
-  height: 100px;
-  width: 100px;
-  margin-left: 0 !important;
-}
-
-.Tutorials .navbar-nav li a {
-  line-height: 100px;
-  height: 100px;
-  padding-top: 0;
-}
-
-.Tutorials .navbar-nav li a svg {
-  width: 100px;
-  padding-top: 15px;
+.Tutorials .MainContent {
+  padding-top: 123px;
+  overflow-x: hidden;
 }
 
 .Tutorials .MainContent h1 {
-  width: 90% !important;
+  margin: 1.5rem auto 3rem auto;
   text-transform: uppercase;
 }
 
@@ -8877,8 +9079,7 @@ code {
 .Tutorials .MainContent h3,
 .Tutorials .MainContent h4,
 .Tutorials .MainContent h5,
-.Tutorials .MainContent h6,
-.Tutorials .MainContent h7 {
+.Tutorials .MainContent h6 {
   position: relative;
 }
 
@@ -8887,8 +9088,7 @@ code {
 .Tutorials .MainContent h3 .anchor,
 .Tutorials .MainContent h4 .anchor,
 .Tutorials .MainContent h5 .anchor,
-.Tutorials .MainContent h6 .anchor,
-.Tutorials .MainContent h7 .anchor {
+.Tutorials .MainContent h6 .anchor {
   position: absolute;
   height: 100%;
   width: 40px;
@@ -8904,8 +9104,7 @@ code {
 .Tutorials .MainContent h3 .anchor .header-link,
 .Tutorials .MainContent h4 .anchor .header-link,
 .Tutorials .MainContent h5 .anchor .header-link,
-.Tutorials .MainContent h6 .anchor .header-link,
-.Tutorials .MainContent h7 .anchor .header-link {
+.Tutorials .MainContent h6 .anchor .header-link {
   display: inline-block;
   position: absolute;
   width: 40px;
@@ -8918,8 +9117,7 @@ code {
 .Tutorials .MainContent h3 .anchor .header-link:hover,
 .Tutorials .MainContent h4 .anchor .header-link:hover,
 .Tutorials .MainContent h5 .anchor .header-link:hover,
-.Tutorials .MainContent h6 .anchor .header-link:hover,
-.Tutorials .MainContent h7 .anchor .header-link:hover {
+.Tutorials .MainContent h6 .anchor .header-link:hover {
   background-image: url(/images/anchor.png);
   background-size: 20px 20px;
   background-position: center center;
@@ -8932,8 +9130,7 @@ code {
 .Tutorials .MainContent h3:hover .header-link,
 .Tutorials .MainContent h4:hover .header-link,
 .Tutorials .MainContent h5:hover .header-link,
-.Tutorials .MainContent h6:hover .header-link,
-.Tutorials .MainContent h7:hover .header-link {
+.Tutorials .MainContent h6:hover .header-link {
   background-image: url(/images/anchor.png);
   background-size: 20px 20px;
   background-position: center center;
@@ -8941,8 +9138,12 @@ code {
 }
 
 .Tutorials .MainContent p {
-  line-height: 1.9rem;
+  line-height: 1.75rem;
   margin-bottom: 1.9rem;
+}
+
+.Tutorials .MainContent p:last-of-type {
+  margin-bottom: 0;
 }
 
 .Tutorials .MainContent a {
@@ -8959,34 +9160,87 @@ code {
   max-width: 100%;
 }
 
+.Tutorials .MainContent .pet-shop-header img {
+  display: block;
+  height: calc(50vh - 100px);
+  width: auto;
+  margin: 1.5rem auto 1rem auto !important;
+}
+
 .Tutorials .MainContent ul,
 .Tutorials .MainContent ol {
-  margin-bottom: 1.9rem;
+  max-width: 100%;
+  margin: 2rem auto;
+  padding-left: 20px;
   font-family: "Open Sans", "Verdana", Times, serif;
+}
+
+.Tutorials .MainContent ul.list-unstyled li,
+.Tutorials .MainContent ol.list-unstyled li {
+  margin-bottom: 0;
 }
 
 .Tutorials .MainContent ul li,
 .Tutorials .MainContent ol li {
-  line-height: 1.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.75rem;
+}
+
+@media screen and (max-width: 767px) {
+  .Tutorials .MainContent ul,
+  .Tutorials .MainContent ol {
+    padding-left: 30px;
+  }
 }
 
 .Tutorials .MainContent hr {
+  margin: 3rem auto;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px dotted;
   display: block;
   height: 1px;
 }
 
 .Tutorials .MainContent pre {
+  position: relative;
+  margin: 1rem 0 3rem 0;
+  padding: 3rem 0;
   border-radius: 0;
   background: #f7f7f7;
-  max-width: 100%;
+  width: 100%;
   word-break: break-word;
-  padding-left: 0;
+  border-left: none;
+  border-right: none;
+  overflow: visible;
 }
 
 .Tutorials .MainContent pre code {
-  width: 90% important;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: calc(50vw + 250px);
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 599px) {
+  .Tutorials .MainContent pre code {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+.Tutorials .MainContent pre::after {
+  content: '';
+  position: absolute;
+  width: 200vw;
+  top: -1px;
+  right: auto;
+  bottom: -1px;
+  left: -100vw;
+  z-index: -1;
+  background: #f7f7f7;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .Tutorials .MainContent pre.language-shell {
@@ -8998,24 +9252,59 @@ code {
   text-shadow: none;
 }
 
+.Tutorials .MainContent pre.language-shell::after {
+  background-color: #272727;
+}
+
+.Tutorials .MainContent footer p {
+  margin-bottom: 0;
+}
+
 .Tutorials .MainContent footer p:before {
   content: '';
   display: block;
   border-top: 1px dotted;
   margin-top: 3rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.Tutorials .MainContent .container-steps {
+  margin-bottom: 4rem;
+}
+
+.Tutorials .MainContent .container-steps img {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.Tutorials .MainContent .caption {
+  font-size: .9rem;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .Tutorials .MainContent {
+    padding-top: 83px;
+  }
+}
+
+.Tutorials .TutorialIndex ol {
+  margin-bottom: 1rem;
 }
 
 .Tutorials .TutorialIndex li a {
   display: block;
   background-color: #94D6E2;
+  color: #545452;
+  border-bottom: none;
   text-transform: uppercase;
   transition: all .3s;
 }
 
 .Tutorials .TutorialIndex li a h2 {
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
   letter-spacing: 1px;
   text-shadow: none;
@@ -9023,100 +9312,140 @@ code {
 
 .Tutorials .TutorialIndex li a div {
   margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+.Tutorials .TutorialIndex li a h2 {
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  transition: all .3s;
 }
 
 .Tutorials .TutorialIndex li a:hover {
   color: white;
   text-decoration: none;
+  transform: scale(1.02);
 }
 
 .Tutorials .TutorialIndex li a:hover h2 {
   color: white;
 }
 
-.Community .nav a {
-  text-transform: uppercase;
+.Tutorials .TutorialIndex.Blog li a {
+  background-color: #fff;
+  color: #545452;
+  border-bottom: solid 2px #3FE0C5;
 }
 
-.Community .navbar-brand,
-.Community .navbar-nav li a {
-  line-height: 100px;
-  height: 100px;
-  padding-top: 0;
+.Tutorials .TutorialIndex.Blog li a:hover {
+  background-color: #3FE0C5;
+  color: white;
 }
 
-.Community .navbar-brand svg,
-.Community .navbar-nav li a svg {
-  width: 100px;
-  padding-top: 15px;
+.Community .MainContent {
+  padding-top: 123px;
+  background: #F8F5F0;
+  overflow: hidden;
 }
 
-.Community .navbar-toggle {
-  margin-top: 30px;
-  margin-right: 30px;
+.Community .MainContent h1 {
+  margin-bottom: 2rem;
 }
 
-@media (min-width: 992px) {
-  .Documentation .navbar {
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
-    z-index: 1;
+.Community .MainContent p, .Community .MainContent li {
+  line-height: 1.75rem;
+}
+
+@media screen and (max-width: 767px) {
+  .Community .MainContent {
+    padding-top: 83px;
+  }
+}
+
+.Support .MainContent {
+  padding-top: 123px;
+  border-bottom: solid 1px #e7e7e7;
+  background: #F8F5F0;
+}
+
+.Support .MainContent h1 {
+  margin-bottom: 2rem;
+}
+
+.Support .MainContent p, .Support .MainContent li {
+  line-height: 1.75rem;
+}
+
+.Support .MainContent ul {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Support .MainContent ul li {
+  margin-bottom: 1rem;
+  font-family: "Open Sans", "Verdana", Times, serif;
+}
+
+@media screen and (max-width: 767px) {
+  .Support .MainContent {
+    padding-top: 83px;
+  }
+  .Support .MainContent ul {
+    padding-left: 20px;
+  }
+  .Support .MainContent .livesaver {
+    display: none;
+  }
+}
+
+.Support .custom-box {
+  position: relative;
+  max-width: 750px;
+}
+
+.Support .livesaver {
+  width: 120px;
+  float: right;
+}
+
+.body-docs {
+  background: #F8F5F0;
+}
+
+.Documentation .MainContent {
+  background: #F8F5F0;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .Documentation .MainContent {
+    padding-top: 60px;
   }
 }
 
 .Documentation .DocSearchForm {
-  margin-left: 1rem;
-  margin-right: 2rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.Documentation .DocSearchForm .form-group {
-  display: flex;
-  flex: 1;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .Documentation .DocSearchForm .btn {
-  height: 54px;
+  height: 53px;
+  border: 1px solid #3FE0C5;
 }
 
 .Documentation .DocSearchForm input[type='text'] {
   background: transparent;
-  border: none;
-  border: 1px solid #3FE0C5;
-  padding: 1.6rem;
+  border-color: #3FE0C5;
+  padding: 1.58rem 1rem;
   color: #3FE0C5;
-  flex: 1;
-  margin-right: 1rem;
 }
 
 @media (max-width: 1390px) {
   .Documentation .DocSearchForm {
-    flex-direction: column;
-    margin-right: 1rem;
+    margin-right: 0;
   }
   .Documentation .DocSearchForm input[type='text'] {
-    margin: 0 0 .2rem 0;
+    margin: 0;
   }
-}
-
-.Documentation .navbar {
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-
-.Documentation .navbar-brand {
-  height: 100px;
-  width: 102px;
-  margin-left: 0 !important;
-}
-
-.Documentation .navbar-nav li a {
-  line-height: 100px;
-  height: 100px;
-  padding-top: 0;
 }
 
 @media (min-width: 992px) {
@@ -9132,25 +9461,31 @@ code {
 }
 
 .Documentation .SubNav {
-  overflow: scroll;
   background: #5e464d;
-  padding-top: 2rem;
-  padding-right: 0;
   color: #3fe0c5;
+  padding: 2rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 767px) {
+  .Documentation .SubNav {
+    padding: 2rem 15px;
+  }
 }
 
 .Documentation .SubNav h2 {
   text-shadow: none;
   text-transform: uppercase;
   color: #3FE0C5;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .Documentation .SubNav ul {
-  margin-left: 15px;
+  margin: 0;
 }
 
-.Documentation .SubNav ul li {
+.Documentation .SubNav ul li:not(:last-child) {
   margin-bottom: .5rem;
 }
 
@@ -9174,11 +9509,23 @@ code {
 }
 
 .Documentation .SubNav ul > li > ul {
-  margin-left: 1rem;
+  margin-left: 0;
 }
 
 .Documentation .ContentPage {
   padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 991px) {
+  .Documentation .ContentPage {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Documentation .ContentPage {
+    padding: 2rem 15px;
+  }
 }
 
 .Documentation .ContentPage h1,
@@ -9269,6 +9616,7 @@ code {
 
 .Documentation .ContentPage p {
   margin-bottom: 2rem;
+  line-height: 1.75rem;
 }
 
 .Documentation .ContentPage pre {
@@ -9285,16 +9633,22 @@ code {
   font-weight: normal;
   font-family: "Open Sans", "Verdana", Times, serif;
   margin-bottom: 1rem;
+  word-wrap: break-word;
+  line-height: 1.75rem;
 }
 
-@media (min-width: 992px) {
-  .Documentation .ContentPage {
-    margin-top: 100px;
+@media screen and (max-width: 767px) {
+  .Documentation .ContentPage ul {
+    padding-left: 20px;
   }
 }
 
+.Documentation .ContentPage img {
+  max-width: 100%;
+}
+
 .Documentation footer {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding: 2rem;
   background: white;
   border-radius: 10px;
@@ -9303,4 +9657,595 @@ code {
 .Documentation footer p {
   margin: 0 !important;
   padding: 0;
+}
+
+.Documentation .BetaSignup {
+  background: transparent;
+  border: none;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.Documentation .BetaSignup::before {
+  display: none;
+}
+
+.Documentation .BetaSignup .FormWrapper {
+  margin-bottom: 1rem;
+}
+
+.Ganache {
+  background: #34262a;
+  padding-top: 100px;
+  text-shadow: none;
+  color: #fff;
+  /* GENERAL */
+  /* HELPERS */
+  /* PAGE */
+}
+
+.Ganache h1, .Ganache h2, .Ganache h3, .Ganache h4, .Ganache h5, .Ganache h6 {
+  background: #34262a;
+  text-shadow: none;
+  color: #fff;
+}
+
+.Ganache .navbar {
+  background: #34262a;
+  border-color: #5f474e;
+}
+
+.Ganache .navbar .navbar-nav > li > a {
+  color: #fff;
+  transition: opacity .125s ease-in-out;
+}
+
+.Ganache .navbar .navbar-nav > li > a:hover {
+  opacity: .6;
+}
+
+.Ganache .navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .Ganache .navbar .navbar-collapse {
+    background: #34262a;
+  }
+}
+
+.Ganache .Footer {
+  background: #34262a;
+  border-color: #5f474e;
+  color: #fff;
+}
+
+.Ganache .Footer a {
+  color: #27aae1;
+  transition: opacity .125s ease-in-out;
+}
+
+.Ganache .Footer a:hover {
+  opacity: .6;
+  text-decoration: none;
+}
+
+.Ganache .Footer .copyright svg path,
+.Ganache .Footer .copyright svg ellipse {
+  fill: #fff;
+}
+
+.Ganache .Footer .BetaSignup h5 {
+  color: #fff;
+}
+
+.Ganache .Footer .BetaSignup .FormWrapper {
+  border-color: #5f474e;
+}
+
+.Ganache .Footer .BetaSignup .FormWrapper .mc-field-group:first-child {
+  border-color: #5f474e;
+}
+
+.Ganache .Footer .BetaSignup .FormWrapper .mc-field-group {
+  border-color: #5f474e;
+}
+
+.Ganache .Footer .BetaSignup .FormWrapper label {
+  color: #fff;
+}
+
+.Ganache .Footer .BetaSignup .FormWrapper input[type="text"],
+.Ganache .Footer .BetaSignup .FormWrapper input[type="email"] {
+  background: #34262a;
+}
+
+.Ganache .text-ganache {
+  font-family: "Grand Hotel", cursive;
+}
+
+.Ganache .btn-orange {
+  background-color: #e5a663;
+  color: #5f474e;
+  border: none;
+  text-align: left;
+  padding: 12px 18px;
+  transition: background-color .125s ease-in-out;
+}
+
+.Ganache .btn-orange:hover {
+  background-color: #fff;
+}
+
+.Ganache .btn-orange span {
+  display: block;
+  float: left;
+  margin-right: 0;
+}
+
+.Ganache .btn-orange img {
+  width: 60px;
+  height: auto;
+  float: right;
+  margin-left: 1rem;
+}
+
+.Ganache .btn-orange .oswald {
+  font-size: 1.5rem;
+  margin-top: .3rem;
+}
+
+.Ganache .btn-orange .os {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+}
+
+.Ganache .ganache-banner {
+  position: relative;
+  height: 290px;
+}
+
+.Ganache .ganache-banner img {
+  display: block;
+  height: auto;
+  width: 1400px;
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Ganache .ganache-banner h1 {
+  font-family: "Grand Hotel", cursive;
+  font-size: 2.8rem;
+  margin-top: 240px;
+}
+
+.Ganache .row-tagline {
+  margin: 2rem -15px;
+}
+
+@media screen and (max-width: 767px) {
+  .Ganache .row-tagline {
+    text-align: center;
+  }
+  .Ganache .row-tagline .pull-right {
+    float: none !important;
+    margin-top: 2rem;
+  }
+}
+
+.Ganache .os-dl {
+  font-size: .8rem;
+  margin-top: .5rem;
+  text-align: center;
+}
+
+.Ganache .os-dl a {
+  color: #fff;
+  transition: opacity .125s ease-in-out;
+}
+
+.Ganache .os-dl a:hover {
+  text-decoration: none;
+  opacity: .6;
+}
+
+.Ganache .row-features-heading {
+  position: relative;
+}
+
+.Ganache .row-features-heading h2 {
+  background: transparent;
+  font-size: 5rem;
+  margin-top: 10vw;
+}
+
+.Ganache .row-features-heading .ganache-goop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.Ganache .row-features {
+  margin: 60px -15px;
+}
+
+.Ganache .row-features img {
+  max-width: 120px;
+}
+
+.Ganache .row-features h3 {
+  background: transparent;
+}
+
+.Ganache .row-features p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .Ganache .row-features [class^="col-"]:last-child {
+    margin-top: 60px;
+  }
+}
+
+.Ganache .row-features-bottom {
+  margin-bottom: 120px;
+}
+
+.Ganache .row-ganache-pattern {
+  background: url("/images/suite/ganache/ganache-pattern.svg");
+  background-repeat: repeat;
+  background-size: 360px 240px;
+  border-top: solid 3px #e5a663;
+  padding: 200px 0;
+}
+
+.Ganache .row-ganache-pattern a {
+  text-decoration: none;
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Ganache .row-ganache-pattern a:hover svg path {
+  fill: #fff;
+}
+
+.Ganache .row-ganache-pattern .well {
+  max-width: 600px;
+  background: #5f474e;
+  color: #fff;
+  border: none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 3rem;
+}
+
+.Ganache .row-ganache-pattern .well svg {
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto 1rem auto;
+}
+
+.Ganache .row-ganache-pattern .well svg path {
+  fill: #e5a663;
+  transition: fill .125s ease-in-out;
+}
+
+.Ganache .row-ganache-pattern .well h2, .Ganache .row-ganache-pattern .well h3, .Ganache .row-ganache-pattern .well p {
+  margin: 0;
+  background: transparent;
+}
+
+.Ganache .row-ganache-pattern .well h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Ganache .row-ganache-pattern .well h3 {
+  font-size: 4rem;
+}
+
+.Ballotin {
+  /* General */
+  /* Containers */
+  /* Elements */
+  /* Cards */
+  /* Markdown Area (Documentation) */
+}
+
+.Ballotin p {
+  line-height: 1.75rem;
+}
+
+.Ballotin .row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .row-flex {
+    display: block;
+  }
+}
+
+.Ballotin .row-flex-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .row-flex-left {
+    display: block;
+  }
+}
+
+.Ballotin .BallotinIndexContainer {
+  background: #F8F5F0;
+  padding-top: 23px;
+}
+
+.Ballotin .BallotinSingleContainer {
+  padding-top: 23px;
+  padding-bottom: 50px;
+}
+
+.Ballotin .CommunityBoxes {
+  position: relative;
+  background-color: #D8D8D8;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.Ballotin .CommunityBoxes:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16.5%;
+  height: 90%;
+  background-color: #fff;
+  opacity: .2;
+  transform: skew(0, -12deg);
+}
+
+.Ballotin .CommunityBoxes ul {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .CommunityBoxes h2 {
+    margin-top: 0;
+  }
+  .Ballotin .CommunityBoxes p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Ballotin > main {
+  padding: 100px 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin > main {
+    padding: 60px 0 0 0;
+  }
+}
+
+.Ballotin > .container {
+  padding-bottom: 50px;
+}
+
+.Ballotin .label-truffle {
+  display: inline-block;
+  background: #f8f7f7;
+  color: #545452;
+  font-weight: normal;
+}
+
+.Ballotin .label-truffle svg {
+  float: left;
+  height: 1.2em;
+  margin-bottom: -.333333333333333em;
+  margin-left: -.333333333333333em;
+  margin-right: .2em;
+  width: auto;
+}
+
+.Ballotin h1 .label-truffle {
+  font-size: 1.2rem;
+}
+
+.Ballotin .GitHubStars {
+  display: block;
+}
+
+.Ballotin .GitHubStars iframe {
+  margin: 10px 0;
+}
+
+.Ballotin .GitHubStarIcon {
+  color: #e4b93e;
+}
+
+@media screen and (max-width: 991px) {
+  .Ballotin .Sidebar {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .Sidebar {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .Ballotin .Sidebar [class^="col-"]:nth-child(2) .FeatureCard {
+    margin-top: 4rem;
+  }
+}
+
+.Ballotin .BoxTagsList {
+  list-style: none;
+  margin: -5px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Ballotin .BoxTagsList li {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.Ballotin .BoxTagsList li a {
+  display: block;
+  padding: .5em .7em .5em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.Ballotin .FeatureCard {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.Ballotin .FeatureCard a {
+  color: #545452;
+}
+
+.Ballotin .FeatureCard .FeatureBody {
+  position: relative;
+  padding: 2rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  overflow: hidden;
+}
+
+.Ballotin .FeatureCard .FeatureBody.withImage {
+  padding: 0;
+}
+
+.Ballotin .FeatureCard .FeatureBody > p {
+  line-height: 1.6rem;
+}
+
+.Ballotin .FeatureCard .FeatureBody .FeatureImageSm {
+  display: none;
+  height: 100px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .FeatureCard .FeatureBody .FeatureImageSm {
+    display: block;
+  }
+}
+
+.Ballotin .FeatureCard .FeatureBody .FeatureImageLg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .FeatureCard .FeatureBody .FeatureImageLg {
+    display: none;
+  }
+}
+
+.Ballotin .FeatureCard footer {
+  text-align: center;
+  background: #f8f7f7;
+  min-height: 60px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.Ballotin .FeatureCard footer p {
+  margin: 0;
+}
+
+.Ballotin .FeatureCard footer img {
+  width: 60px;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown {
+  padding: 2rem;
+  text-align: left;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown h3 {
+  margin-top: 0;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown .BoxRundownList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown .BoxRundownList li {
+  margin-bottom: 0;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown .BoxRundownList hr {
+  margin: 5px 0;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown .BoxRundownList strong {
+  text-transform: uppercase;
+  font-family: "Oswald", "Arial Narrow", sans-serif;
+  font-weight: normal;
+}
+
+.Ballotin .FeatureCard footer.BoxRundown .BoxRundownList > li:nth-child(odd):not(:first-child) {
+  margin-top: 2rem;
+}
+
+.Ballotin .CommunityBoxes .FeatureCard {
+  margin-bottom: 0;
+}
+
+.Ballotin .CommunityBoxes .row-boxes .FeatureCard {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .Ballotin .FeatureCard {
+    margin-top: 5px;
+  }
+  .Ballotin .CommunityBoxes .FeatureCard {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Ballotin .FeatureCard {
+    margin-top: 30px;
+  }
+  .Ballotin .CommunityBoxes .FeatureCard {
+    margin: 1rem 0 3rem 0;
+  }
+}
+
+.Ballotin .BoxReadme ul li,
+.Ballotin .BoxReadme ol li {
+  margin-bottom: 1.5rem;
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  cursor: pointer;
 }
